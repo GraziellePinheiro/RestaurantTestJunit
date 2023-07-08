@@ -140,6 +140,28 @@ public class RestauranteTest {
 
         Assertions.assertEquals(conta, valorComDesconComServ);
 
+        
     }
+
+    @Test
+    @DisplayName("Deve remover produto da lista")
+    public void testRemoverProduto(){
+
+
+        Prato prato = new Prato("Spaghetti la Carbonara", 69.90);
+        Bebida bebida = new Bebida("VinhoBranco", 42.00);
+
+        Restaurante restaurante = new Restaurante();
+        restaurante.cadastrarPrato(prato);
+        restaurante.cadastrarBebida(bebida);
+
+        restaurante.removerProduto(bebida);
+        
+
+        Assertions.assertTrue(restaurante.getPratos().contains(prato));
+        Assertions.assertFalse(restaurante.getBebidas().contains(bebida));
+    }
+
+    
 
 }

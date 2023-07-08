@@ -1,0 +1,21 @@
+Especificação do Projeto - Restaurante
+O objetivo do projeto é desenvolver um sistema para um restaurante que permita cadastrar pratos e bebidas, realizar pedidos dos clientes e calcular a conta final, considerando opções de serviço, pagamento e eventuais perdas de produtos.
+
+Requisitos Funcionais:
+O sistema deve permitir o cadastro de pratos, informando nome e preço.
+O sistema deve permitir o cadastro de bebidas, informando nome e preço.
+O sistema deve permitir adicionar pratos e bebidas a um pedido.
+O sistema deve permitir calcular o valor total da conta considerando os produtos selecionados.
+O sistema deve oferecer a opção de adicionar 10% de serviço à conta.
+O sistema deve oferecer a opção de aplicar um desconto de 5% para pagamentos em dinheiro.
+O sistema deve permitir remover produtos do pedido.
+O sistema deve permitir registrar perdas de produtos que geram prejuízo.
+
+Delivery 
+
+
+Requisitos Não Funcionais:
+O sistema deve ser implementado em Java.
+Os testes automatizados devem ser escritos usando JUnit.
+O código deve seguir boas práticas de desenvolvimento, como nomenclatura significativa, encapsulamento adequado e modularidade.
+O código deve ser testado de forma abrangente para garantir seu funcionamento correto.
